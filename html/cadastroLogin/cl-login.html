@@ -26,23 +26,21 @@
 
             <form id="loginForm">
                 <section class="campo">
-                    <label for="nome">E-mail</label>
-                    <input type="text" id="email" class="caixa" placeholder="Digite seu e-mail">
+                    <label for="email">E-mail</label>
+                    <input type="text" id="email" name="email" class="caixa" placeholder="Digite seu e-mail">
                 </section>
                 
                 <section class="campo">
-                    <label for="nome">Senha</label>
-                    <input type="password" id="senha" class="caixa" placeholder="Digite sua senha">
+                    <label for="senha">Senha</label>
+                    <input type="password" id="senha" name="senha" class="caixa" placeholder="Digite sua senha">
                 </section>
-                
-
-
+            
+                <!-- Botão de submit principal -->
                 <button type="submit" class="botao">ENTRAR</button>
-
-
-                <a href="../cadastroLogin/cl-esq_senha.html"><button type="submit" class="senha">Esqueceu a senha?</button></a>
-
-                <a href="../cadastroLogin/cl-loginmain.html"></a><button type="submit" class="cad">Cadastre-se</button></a>
+            
+                <!-- Links estilizados como botões (sem type="submit") -->
+                <a href="../cadastroLogin/cl-esq_senha.html" class="senha">Esqueceu a senha?</a>
+                <a href="../cadastroLogin/cl-loginmain.html" class="cad">Cadastre-se</a>
             </form>
 
         </section>
